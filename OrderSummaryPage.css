@@ -1,0 +1,43 @@
+.order-summary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.order-section {
+    margin-bottom: 20px;
+}
+
+.order-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.order-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-section ul li {
+    margin-bottom: 5px;
+}
+
+.total-section {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.link-back {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.link-back:hover {
+    text-decoration: underline;
+}

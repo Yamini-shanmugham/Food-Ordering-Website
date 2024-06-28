@@ -1,0 +1,102 @@
+/* LunchPage.css */
+.lunch-container {
+    margin: 120px 200px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(174, 147, 182, 0.479); /* Reddish background color */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.lunch-container:hover {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.815);
+}
+
+.lunch-container h1 {
+    text-align: center;
+}
+
+.cart-summary {
+    text-align: right;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.item {
+    flex: 1 1 calc(33% - 30px);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    max-width: 250px; /* Adjust maximum width as needed */
+    max-height: 250px; /* Adjust maximum height as needed */
+}
+
+.item p {
+    margin: 10px 0;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.stars-outer {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    color: #f8ce0b;
+}
+
+.review-box {
+    width: 100%;
+    margin-top: 10px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.review-box:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.item button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.item button:hover {
+    background-color: #0056b3;
+}
